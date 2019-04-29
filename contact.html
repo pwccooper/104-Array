@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<title> Feedback </title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="Style.css">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	
+
+</head>
+
+<body>
+		<h1>Feedback</h1>
+		<br>
+
+		<div class="topnav" id="myTopnav">
+		<a href="Index.html">Home</a>
+		<a href="HTML.html">HTML</a>
+		<a href="CSS.html">CSS</a>
+		<a href="contact.html">Feedback</a>
+		</div>
+<br>
+<main class="content">
+		<p>For any feedback on how to improve the site or to get in direct contact. Please fill out the form below. Thank you and have a great day!</p>
+		<h3>Feedback Form</h3><br>
+		<form action="">
+			<fieldset>
+				<legend>Personal Information</legend>
+				<label for="name">Name:</label>
+				<input type="text" name="name" id="name" placeholder="your name" required> 
+
+				<label for="email"> E-mail </label>
+				<input type="email" name="email" id="email" placeholder="your personal e-mail" required>
+
+				<label for="phone-number"> Phone number </label>
+				<input type="tel" id="phone" name="phone" placeholder="your phone number" required>
+
+				<label for="message"> Message</label>
+				<textarea id="message"> </textarea>
+			</fieldset>
+
+			<fieldset>
+				<legend>Location</legend>
+				<label for="options"> Country</label>
+				<select id="options">
+					<option value="" disabled selected> --- select ---</option>
+					<option value="usa">United States</option>
+					<option value="mexico">Mexico</option>				
+				</select>
+				<br><br>
+
+				<label for="number">Age</label>
+				<input type="number" name="number" min="0" max="100" step="1">
+
+				
+			</fieldset>
+
+
+			<fieldset>
+				<legend>How can we contact you?</legend>
+				<label for="telephone">Telephone</label>
+				<input type="radio" name="contact" value="telephone" id="telephone">
+
+				<label for="email">E-mail</label>
+				<input type="radio" name="email" value="email" id="email">
+
+				<label>Date:</label>
+				<input type="date" name="date" id="date">
+
+				<label for="hour">Hour:</label>
+				<input type="time" name="hour" id="hour" min="09:00" max="18:00">
+			</fieldset>
+
+			<input type="submit" name="send" class="btn btn-secondary btn-lg">
+
+		</form>
+	</main>
+
+
+<br><br>
+
+		<div class="backtop" id="backtop">
+		<a href="Main.html"> Home </a>
+		<a href="HTML.html"> HTML </a>
+		<a href="CSS.html"> CSS </a>
+		<a href="contact.html"> Feedback </a>
+		</div>
+</body>
+</html>
